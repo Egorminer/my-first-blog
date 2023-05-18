@@ -10,7 +10,8 @@ def index(request):
 
 def about(request):
     return render(request,'main/about.html')
-
+def photo(request):
+    return render(request,'main/photo.html')
 def create(request):
     error=''
     if request.method=='POST':
